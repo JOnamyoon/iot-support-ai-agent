@@ -1,0 +1,10 @@
+{
+  "questions": 30,
+  "recall_at_3": 1.0,
+  "faithfulness_proxy": 1.0,
+  "citation_coverage": 1.0,
+  "latency_ms_mean": 0.381,
+  "latency_ms_p95": 0.445,
+  "backend": "TF-IDF offline baseline",
+  "note": "Faithfulness is a lexical support proxy because the baseline answerer is extractive; it is not semantic factuality evaluation."
+}

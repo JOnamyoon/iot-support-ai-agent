@@ -1,0 +1,31 @@
+﻿question,expected,top3,recall_at_3,faithfulness_proxy,citation_coverage,latency_ms
+What is prompt injection in an LLM application?,OWASP_LLM_TOP10,OWASP_LLM_TOP10|OWASP_WEB_TOP10|PYTHON_LOGGING,1,1.0,1,0.623
+Which source discusses excessive agency and embedding weaknesses?,OWASP_LLM_TOP10,OWASP_LLM_TOP10|GITHUB_README|STREAMLIT_STATE,1,1.0,1,0.469
+What document summarizes common web application security risks?,OWASP_WEB_TOP10,OWASP_WEB_TOP10|FASTAPI_SECURITY|OWASP_API_TOP10,1,1.0,1,0.442
+Which guidance includes broken access control and injection?,OWASP_WEB_TOP10,OWASP_WEB_TOP10|PYTHON_LOGGING|GITHUB_SECURITY,1,1.0,1,0.376
+What are major security concerns for APIs?,OWASP_API_TOP10,OWASP_API_TOP10|FASTAPI_SECURITY|FASTAPI_MIDDLEWARE,1,1.0,1,0.393
+Which source emphasizes object and operation authorization in APIs?,OWASP_API_TOP10,OWASP_API_TOP10|GITHUB_README|NIST_AI_RMF,1,1.0,1,0.377
+What security risks arise when AI models connect to tools through MCP?,OWASP_MCP_TOP10,OWASP_MCP_TOP10|NIST_AI_RMF|OWASP_WEB_TOP10,1,1.0,1,0.356
+Which guidance warns about command execution from untrusted model context?,OWASP_MCP_TOP10,OWASP_MCP_TOP10|OWASP_LLM_TOP10|GITHUB_SECURITY,1,1.0,1,0.445
+What are the four NIST AI RMF core functions?,NIST_AI_RMF,NIST_AI_RMF|NIST_CSF20|OWASP_MCP_TOP10,1,1.0,1,0.355
+Which framework uses Govern Map Measure and Manage?,NIST_AI_RMF,NIST_AI_RMF|NIST_CSF20|NIST_CSF_QSG,1,1.0,1,0.396
+What are the six functions in NIST Cybersecurity Framework 2.0?,NIST_CSF20,NIST_CSF20|NIST_CSF_QSG|NIST_AI_RMF,1,1.0,1,0.344
+Which framework adds Govern to Identify Protect Detect Respond Recover?,NIST_CSF20,NIST_CSF20|NIST_AI_RMF|NIST_CSF_QSG,1,1.0,1,0.377
+What is the purpose of NIST CSF quick-start guides?,NIST_CSF_QSG,NIST_CSF_QSG|NIST_CSF20|GITHUB_README,1,1.0,1,0.339
+Which resource helps organizations begin using the Cybersecurity Framework practically?,NIST_CSF_QSG,NIST_CSF_QSG|NIST_CSF20|FASTAPI_TUTORIAL,1,1.0,1,0.334
+What does the FastAPI tutorial teach about type hints and request validation?,FASTAPI_TUTORIAL,FASTAPI_TUTORIAL|FASTAPI_SECURITY|FASTAPI_MIDDLEWARE,1,1.0,1,0.389
+Which FastAPI page covers path operations request bodies and automatic API docs?,FASTAPI_TUTORIAL,FASTAPI_TUTORIAL|FASTAPI_MIDDLEWARE|FASTAPI_BACKGROUND,1,1.0,1,0.354
+How can OAuth2 bearer security be declared in FastAPI?,FASTAPI_SECURITY,FASTAPI_SECURITY|OWASP_API_TOP10|OWASP_WEB_TOP10,1,1.0,1,0.365
+Which FastAPI topic connects security dependencies to OpenAPI?,FASTAPI_SECURITY,FASTAPI_SECURITY|OWASP_API_TOP10|FASTAPI_TUTORIAL,1,1.0,1,0.388
+What is middleware used for in FastAPI?,FASTAPI_MIDDLEWARE,FASTAPI_MIDDLEWARE|PYTHON_SQLITE|FASTAPI_SECURITY,1,1.0,1,0.337
+Which component can add timing logging or headers to every request and response?,FASTAPI_MIDDLEWARE,FASTAPI_MIDDLEWARE|FASTAPI_TUTORIAL|GITHUB_SECURITY,1,1.0,1,0.38
+When should FastAPI BackgroundTasks be used?,FASTAPI_BACKGROUND,FASTAPI_BACKGROUND|FASTAPI_MIDDLEWARE|PYTHON_SQLITE,1,1.0,1,0.326
+Which FastAPI feature runs small follow-up work after returning a response?,FASTAPI_BACKGROUND,FASTAPI_BACKGROUND|FASTAPI_MIDDLEWARE|FASTAPI_TUTORIAL,1,1.0,1,0.373
+Why is Session State useful in Streamlit?,STREAMLIT_STATE,STREAMLIT_STATE|STREAMLIT_CHAT|STREAMLIT_CACHE,1,1.0,1,0.336
+Which Streamlit feature keeps values across reruns for one user session?,STREAMLIT_STATE,STREAMLIT_STATE|STREAMLIT_CHAT|OWASP_LLM_TOP10,1,1.0,1,0.332
+What is the difference between st.cache_data and st.cache_resource?,STREAMLIT_CACHE,STREAMLIT_CACHE|STREAMLIT_STATE|STREAMLIT_CHAT,1,1.0,1,0.373
+Which Streamlit feature avoids repeating expensive work on reruns?,STREAMLIT_CACHE,STREAMLIT_CACHE|STREAMLIT_STATE|STREAMLIT_CHAT,1,1.0,1,0.335
+Where are GitHub Actions workflow YAML files stored?,GITHUB_ACTIONS,GITHUB_ACTIONS|GITHUB_SECURITY|OWASP_MCP_TOP10,1,1.0,1,0.372
+Which GitHub feature can run pytest on every push and pull request?,GITHUB_ACTIONS,GITHUB_ACTIONS|GITHUB_SECURITY|FASTAPI_TUTORIAL,1,1.0,1,0.407
+Why should GitHub Actions use least-privilege token permissions?,GITHUB_SECURITY,GITHUB_SECURITY|GITHUB_ACTIONS|GITHUB_README,1,1.0,1,0.342
+What should a good repository README include for reproducibility and portfolio evidence?,GITHUB_README,GITHUB_README|OWASP_API_TOP10|OWASP_MCP_TOP10,1,1.0,1,0.383

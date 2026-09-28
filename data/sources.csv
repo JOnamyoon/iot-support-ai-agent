@@ -1,0 +1,21 @@
+source_id,title,organization,url,note,access_date
+OWASP_LLM_TOP10,OWASP Top 10 for LLM Applications,OWASP,https://genai.owasp.org/llm-top-10/,Public web documentation; original terms apply,2026-09-28
+OWASP_WEB_TOP10,OWASP Top 10 2025,OWASP,https://top10.owasp.org/2025/,Public web documentation; original terms apply,2026-09-28
+OWASP_API_TOP10,OWASP API Security Top 10,OWASP,https://api-security.owasp.org/,Public web documentation; original terms apply,2026-09-28
+OWASP_MCP_TOP10,OWASP MCP Top 10,OWASP,https://owasp.org/projects/mcp-top-10,Public web documentation; original terms apply,2026-09-28
+NIST_AI_RMF,NIST AI Risk Management Framework,NIST,https://www.nist.gov/itl/ai-risk-management-framework,US government public information; check source terms,2026-09-28
+NIST_CSF20,NIST Cybersecurity Framework 2.0,NIST,https://www.nist.gov/cyberframework,US government public information; check source terms,2026-09-28
+NIST_CSF_QSG,NIST CSF 2.0 Quick-Start Guides,NIST,https://www.nist.gov/cyberframework/quick-start-guides,US government public information; check source terms,2026-09-28
+FASTAPI_TUTORIAL,FastAPI Tutorial,FastAPI,https://fastapi.tiangolo.com/tutorial/,Public documentation; original terms apply,2026-09-28
+FASTAPI_SECURITY,FastAPI Security,FastAPI,https://fastapi.tiangolo.com/tutorial/security/,Public documentation; original terms apply,2026-09-28
+FASTAPI_MIDDLEWARE,FastAPI Middleware,FastAPI,https://fastapi.tiangolo.com/tutorial/middleware/,Public documentation; original terms apply,2026-09-28
+FASTAPI_BACKGROUND,FastAPI Background Tasks,FastAPI,https://fastapi.tiangolo.com/tutorial/background-tasks/,Public documentation; original terms apply,2026-09-28
+STREAMLIT_STATE,Streamlit Session State,Streamlit,https://docs.streamlit.io/develop/api-reference/caching-and-state/st.session_state,Public documentation; original terms apply,2026-09-28
+STREAMLIT_CACHE,Streamlit Caching Overview,Streamlit,https://docs.streamlit.io/develop/concepts/architecture/caching,Public documentation; original terms apply,2026-09-28
+STREAMLIT_CHAT,Streamlit Chat Elements,Streamlit,https://docs.streamlit.io/develop/api-reference/chat,Public documentation; original terms apply,2026-09-28
+PYTHON_JSON,Python json module,Python Software Foundation,https://docs.python.org/3/library/json.html,Public documentation; original terms apply,2026-09-28
+PYTHON_SQLITE,Python sqlite3 module,Python Software Foundation,https://docs.python.org/3/library/sqlite3.html,Public documentation; original terms apply,2026-09-28
+PYTHON_LOGGING,Python logging HOWTO,Python Software Foundation,https://docs.python.org/3/howto/logging.html,Public documentation; original terms apply,2026-09-28
+GITHUB_ACTIONS,GitHub Actions Documentation,GitHub,https://docs.github.com/en/actions,Public documentation; original terms apply,2026-09-28
+GITHUB_SECURITY,GitHub Security Hardening for Actions,GitHub,https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions,Public documentation; original terms apply,2026-09-28
+GITHUB_README,About repository README files,GitHub,https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes,Public documentation; original terms apply,2026-09-28
